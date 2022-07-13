@@ -1197,7 +1197,7 @@ info bar
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 0 35px;
+  padding: 20px 35px 5px 35px;
   height: 50px;
   background: linear-gradient(159deg, rgba(37, 37, 50, 0.98) 0%, rgba(35, 35, 45, 0.98) 100%);
   position: absolute;

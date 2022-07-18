@@ -128,7 +128,7 @@ $(function() {
     }
   });
 
-  bar.animate(0.9);
+  bar.animate(1);
 
   var bar = new ProgressBar.Circle(circleprog3, {
     strokeWidth: 7,
@@ -146,9 +146,9 @@ $(function() {
     }
   });
 
-  bar.animate(0.7);
+  bar.animate(1);
 
-  var bar = new ProgressBar.Line(lineprog1, {
+  var bar = new ProgressBar.Line(Java, {
     strokeWidth: 1.72,
     easing: 'easeInOut',
     duration: 1400,
@@ -163,9 +163,25 @@ $(function() {
     }
   });
 
-  bar.animate(.9);
+  bar.animate(1);
+  var bar = new ProgressBar.Line(Spring, {
+    strokeWidth: 1.72,
+    easing: 'easeInOut',
+    duration: 1400,
+    delay: 2800,
+    trailWidth: 1.72,
+    svgStyle: {
+      width: '100%',
+      height: '100%'
+    },
+    step: (state, bar) => {
+      bar.setText(Math.round(bar.value() * 100) + ' %');
+    }
+  });
 
-  var bar = new ProgressBar.Line(lineprog2, {
+  bar.animate(1);
+
+  var bar = new ProgressBar.Line(Csharp, {
     strokeWidth: 1.72,
     easing: 'easeInOut',
     duration: 1400,
@@ -182,7 +198,7 @@ $(function() {
 
   bar.animate(.95);
 
-  var bar = new ProgressBar.Line(lineprog3, {
+  var bar = new ProgressBar.Line(Python, {
     strokeWidth: 1.72,
     easing: 'easeInOut',
     duration: 1400,
@@ -197,9 +213,9 @@ $(function() {
     }
   });
 
-  bar.animate(.75);
+  bar.animate(1);
 
-  var bar = new ProgressBar.Line(lineprog4, {
+  var bar = new ProgressBar.Line(R, {
     strokeWidth: 1.72,
     easing: 'easeInOut',
     duration: 1400,
@@ -214,9 +230,94 @@ $(function() {
     }
   });
 
-  bar.animate(.65);
+  bar.animate(1);
 
-  var bar = new ProgressBar.Line(lineprog5, {
+  var bar = new ProgressBar.Line(MSSQL, {
+    strokeWidth: 1.72,
+    easing: 'easeInOut',
+    duration: 1400,
+    delay: 3200,
+    trailWidth: 1.72,
+    svgStyle: {
+      width: '100%',
+      height: '100%'
+    },
+    step: (state, bar) => {
+      bar.setText(Math.round(bar.value() * 100) + ' %');
+    }
+  });
+
+  bar.animate(.9);
+
+  var bar = new ProgressBar.Line(Oracle, {
+    strokeWidth: 1.72,
+    easing: 'easeInOut',
+    duration: 1400,
+    delay: 3200,
+    trailWidth: 1.72,
+    svgStyle: {
+      width: '100%',
+      height: '100%'
+    },
+    step: (state, bar) => {
+      bar.setText(Math.round(bar.value() * 100) + ' %');
+    }
+  });
+
+  bar.animate(.9);
+
+  var bar = new ProgressBar.Line(HTML, {
+    strokeWidth: 1.72,
+    easing: 'easeInOut',
+    duration: 1400,
+    delay: 3200,
+    trailWidth: 1.72,
+    svgStyle: {
+      width: '100%',
+      height: '100%'
+    },
+    step: (state, bar) => {
+      bar.setText(Math.round(bar.value() * 100) + ' %');
+    }
+  });
+
+  bar.animate(1);
+
+  var bar = new ProgressBar.Line(CSSs, {
+    strokeWidth: 1.72,
+    easing: 'easeInOut',
+    duration: 1400,
+    delay: 3200,
+    trailWidth: 1.72,
+    svgStyle: {
+      width: '100%',
+      height: '100%'
+    },
+    step: (state, bar) => {
+      bar.setText(Math.round(bar.value() * 100) + ' %');
+    }
+  });
+
+  bar.animate(1);
+
+  var bar = new ProgressBar.Line(BootStrap, {
+    strokeWidth: 1.72,
+    easing: 'easeInOut',
+    duration: 1400,
+    delay: 3200,
+    trailWidth: 1.72,
+    svgStyle: {
+      width: '100%',
+      height: '100%'
+    },
+    step: (state, bar) => {
+      bar.setText(Math.round(bar.value() * 100) + ' %');
+    }
+  });
+
+  bar.animate(1);
+
+  var bar = new ProgressBar.Line(JSs, {
     strokeWidth: 1.72,
     easing: 'easeInOut',
     duration: 1400,
@@ -232,6 +333,57 @@ $(function() {
   });
 
   bar.animate(.85);
+
+  var bar = new ProgressBar.Line(PHPs, {
+    strokeWidth: 1.72,
+    easing: 'easeInOut',
+    duration: 1400,
+    delay: 3200,
+    trailWidth: 1.72,
+    svgStyle: {
+      width: '100%',
+      height: '100%'
+    },
+    step: (state, bar) => {
+      bar.setText(Math.round(bar.value() * 100) + ' %');
+    }
+  });
+
+  bar.animate(.85);
+
+  var bar = new ProgressBar.Line(Wordpress, {
+    strokeWidth: 1.72,
+    easing: 'easeInOut',
+    duration: 1400,
+    delay: 3200,
+    trailWidth: 1.72,
+    svgStyle: {
+      width: '100%',
+      height: '100%'
+    },
+    step: (state, bar) => {
+      bar.setText(Math.round(bar.value() * 100) + ' %');
+    }
+  });
+
+  bar.animate(1);
+
+  var bar = new ProgressBar.Line(Drupal, {
+    strokeWidth: 1.72,
+    easing: 'easeInOut',
+    duration: 1400,
+    delay: 3200,
+    trailWidth: 1.72,
+    svgStyle: {
+      width: '100%',
+      height: '100%'
+    },
+    step: (state, bar) => {
+      bar.setText(Math.round(bar.value() * 100) + ' %');
+    }
+  });
+
+  bar.animate(1);
 
   // Contact form
   $('.art-input').keyup(function() {
@@ -689,4 +841,6 @@ $(function() {
   var age = Math.abs(year - 1970);
   //display the calculated age
   document.getElementById("age").innerHTML = age;
+
+
 });

@@ -2506,9 +2506,16 @@ portfolio
   transition: 0.4s ease-in-out;
 }
 
+@media ((max-width: 768px) ) {
+  .art-recomendation-popup {
+    background-color: transparent;
+    max-width: 100%;
+  }
+}
+
 .art-recomendation-popup {
   background-color: transparent;
-  max-width: 100%;
+  max-width: 50%;
 }
 
 /* ------------------------------

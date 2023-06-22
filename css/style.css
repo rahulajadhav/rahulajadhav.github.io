@@ -1782,12 +1782,13 @@ content
 }
 .art-testimonial .testimonial-body .art-testimonial-face {
   position: absolute;
-  -o-object-fit: cover;
-     object-fit: cover;
+  -o-object-fit: contain;
+     object-fit: contain;
   right: 30px;
   top: -15px;
   width: 65px;
   height: 65px;
+  background-color: white;
   border-radius: 50%;
   -webkit-box-shadow: 0 3px 8px 0 rgba(15, 15, 20, 0.2);
           box-shadow: 0 3px 8px 0 rgba(15, 15, 20, 0.2);
